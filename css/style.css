@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-first-page{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(196, 204, 204);
+}
+body{
+position: relative;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(158, 155, 155);
+    z-index: 30;
+    opacity: 0.7;
+}
+h4{
+    color: blueviolet;
+    
+}
+.div-border1{
+    margin-left: 10px;
+    height:50px;
+    width: 2px;
+    background-color: rgb(230, 212, 212);
+}
+.div-border2{
+    /* margin-le: 10px; */
+    height:2px;
+    width: 100%;
+    background-color: rgb(200, 200, 240);
+}
+.border-dropdown{
+    height: 50px;
+    width: 80px;
+   border: 2px solid rgb(200, 200, 240) ;
+}
+.nav-link{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.nav-link:hover:first-letter{
+    font-size:22px ;
+    color: rgb(136, 39, 123);
+    font-weight: bold;
+    
+}
+.carousel-caption{
+    height: 180px;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(151, 151, 175);
+    opacity: 0.8;
+}
+.carousel-caption h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.carousel-caption p{
+    font-size: 20px;
+}
+.h1-container{
+    font-size: 30px;
+    color: rgb(136, 39, 123);
+}
+.p1-container{
+    color: white;
+}
+.container-fluid .btn{
+    color: blue;
+    font-size: 20px;
+}
+.h1-container2{
+    text-align: center;
+    font-size: 40px;
+}
+.accordion-button{
+    font-weight: bold;
+    
+}
+.ms-3 .btn{
+    color: blue;
+    font-size: 20px; 
+}
+.form-label{
+    font-size: 25px;
+}
+.aa{
+    height: 200px;
+    background-color: rgb(196, 204, 204);
+
+}
+.container-image{
+    width: 100%;
+    height: 400px;
+}
+.container-image h1{
+    text-align: center;
+    font-size:35px ;
+    color: rgb(136, 39, 123);
+    font-weight: bold;
+    margin-top: 20px;
+}
+.img-static{
+    background-attachment: fixed;
+    height: 300px;;
+    width: 100%;
+    background-color: black;
+    background-image: url(../images/static-image.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    overflow: auto;
+    opacity: 0.9;
+}
+.card{
+    height: 400px;
+    width: 350px;
+    margin-left: 50px;
+}
+.card-img-top {
+    height: 300px;
+}
+.card-body .card-title .btn{
+    margin-left: 100px;
+}
+.container-cards .card::after{
+    position: absolute;
+    width: 0;
+    height: 0;
+    content:"" ;
+    top: 0;
+    left: 0;
+    background-color: rgb(86, 86, 235);
+    opacity: 0;
+    transition: 0.7s;
+}
+.container-cards .card:hover::after{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+.container-cards .card::before{
+    position: absolute;
+    width: 0;
+    height: 0;
+    content:"" ;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(73, 73, 250);
+    opacity: 0;
+    transition: 0.7s;
+}
+.container-cards .card:hover::before{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+.container-cards{
+    background-color: rgb(196, 204, 204);
+}
+.container-second{
+    background-color: rgb(196, 204, 204);
+
+}
+.container-fluid{
+    background-color: rgb(196, 204, 204);
+}
+.img-static2{
+    margin-top: 20px;
+    background-attachment: fixed;
+    height: 300px;;
+    width: 100%;
+    background-color: black;
+    background-image: url(../images/175450.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    overflow: auto;
+    opacity: 0.9;
+}
+.container-thanks{
+    height: 100px;
+    margin-top: 20px;
+    position: relative;
+}
+.container-thanks h1{
+    font-size:35px ;
+    color: rgb(136, 39, 123);
+    font-weight: bold;
+    position: absolute;
+    top: 30;
+    left: 25%;
+}
+.container-cards-thanks{
+    background-color: rgb(196, 204, 204);
+    position: relative;
+}
+.end{
+    position: absolute;
+    bottom: 30;
+    /* opacity: 1; */
+}
+.container-cards-thanks .card .card-img{
+    opacity: 0.3;
+}
+.container-cards-thanks .card:hover{
+    transform: scale(0.9,0.9);
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.div-border{
+    height: 4px;
+    width: 50px;
+    background-color: red;
+}
+.container mt-5{
+    overflow: auto;
+}
+
+.float-end{
+    height: 400px;
+    width: 700px;
+   margin-right: 100px;
+}
+.button{
+    margin-top: 100px;
+}
+.container:hover .div-border{
+width: 80px;
+}
+.container:hover .float-start .img{
+    transform: scale(1.05,1.05);
+    transition: 0.5s;
+}
